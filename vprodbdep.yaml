@@ -43,4 +43,4 @@ spec:
           args: ["rm", "-rf", "/var/lib/mysql/lost+found"]
           volumeMounts:
             - name: vpro-db-data
-              mountPatch: /var/lib/mysql
+              mountPath: /var/lib/mysql
